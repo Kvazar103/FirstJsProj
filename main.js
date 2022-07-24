@@ -67,7 +67,7 @@ let he='hello';
  let firstName='Nazar';
  let middleName='Lyubomirovych';
  let lastName='Voinarovych';
- let person=`</br>${firstName} ${space} ${middleName} ${space} ${lastName}`;
+ let person=`</br>${firstName} ${middleName} ${lastName}`;
  document.write(person);
  let a=100;
  console.log(typeof a);
@@ -78,6 +78,6 @@ let he='hello';
  
  let name=prompt('What is your name?');
  let miName=prompt('What is your middlename?');
- let age=prompt('How old are you?');
+ let age=+prompt('How old are you?');
  console.log(name,miName,age);
 
